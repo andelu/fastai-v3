@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://drive.google.com/uc?export=download&id=1YwNIHssFTiY6AbwEFRzWo9LQVstOm0sZ'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1YwNIHssFTiY6AbwEFRzWo9LQVstOm0sZ'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-K8dBBDg659ChLxI9jbxB56Lme2bcCPo'
 export_file_name = 'export.pkl'
 
-classes = ['alpaca', 'guanaco', 'llama', 'vicuna']
+classes = ['cheetah', 'jaguar', 'leopard']
 path = Path(__file__).parent
 
 app = Starlette()
